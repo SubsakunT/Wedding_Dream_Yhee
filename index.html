@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f1e9">
+  <title>Wedding Invitation | มุก & ต๋อง</title>
+  <meta name="description" content="ขอเรียนเชิญร่วมงานฉลองมงคลสมรส มุก & ต๋อง">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=IBM+Plex+Sans+Thai:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="music-control">
+    <button id="musicToggle" aria-label="เปิดหรือปิดเพลง">♫ <span>เปิดเพลง</span></button>
+    <audio id="weddingMusic" loop src="assets/music/wedding-song.mp3"></audio>
+  </div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-photo"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">WE ARE GETTING MARRIED</p>
+        <p class="script small-script">Wedding Invitation</p>
+        <h1><span data-config="bride">มุก</span> <i>&</i> <span data-config="groom">ต๋อง</span></h1>
+        <div class="ornament">✦ ───────── ✦</div>
+        <p class="hero-date" data-config="dateText">วันเสาร์ที่ 28 พฤศจิกายน 2569</p>
+        <p class="hero-location" data-config="venue">สถานที่จัดงานแต่งงาน</p>
+        <a class="scroll-link" href="#invitation">SCROLL TO EXPLORE <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="intro section" id="invitation">
+      <p class="eyebrow">TOGETHER WITH OUR FAMILIES</p>
+      <p class="script section-script">With joyful hearts</p>
+      <h2>ขอเรียนเชิญร่วมเป็นเกียรติ<br>ในงานฉลองมงคลสมรส</h2>
+      <div class="names"><span data-config="bride">มุก</span><b>&</b><span data-config="groom">ต๋อง</span></div>
+      <p class="body-copy">ในวันสำคัญของเรา ขอเชิญทุกท่านมาร่วมแบ่งปันความสุข<br>และเป็นส่วนหนึ่งของความทรงจำที่แสนพิเศษ</p>
+      <div class="flourish">❦</div>
+    </section>
+
+    <section class="date-section section">
+      <div class="date-card">
+        <p class="eyebrow">SAVE THE DATE</p>
+        <p class="month" data-config="month">NOVEMBER</p>
+        <div class="date-number" data-config="day">28</div>
+        <p class="year" data-config="year">2026</p>
+        <p class="date-thai" data-config="dateText">วันเสาร์ที่ 28 พฤศจิกายน 2569</p>
+      </div>
+      <div class="countdown-wrap">
+        <p class="eyebrow">COUNTING DOWN TO OUR BIG DAY</p>
+        <div class="countdown">
+          <div><strong id="days">00</strong><span>วัน</span></div>
+          <div><strong id="hours">00</strong><span>ชั่วโมง</span></div>
+          <div><strong id="minutes">00</strong><span>นาที</span></div>
+          <div><strong id="seconds">00</strong><span>วินาที</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="schedule section">
+      <p class="eyebrow">THE WEDDING DAY</p>
+      <p class="script section-script">Our Schedule</p>
+      <h2>กำหนดการ</h2>
+      <div class="timeline" id="scheduleList">
+        <article><time>07:09 น.</time><div><h3>พิธีสงฆ์</h3><p>ร่วมทำบุญเพื่อความเป็นสิริมงคล</p></div></article>
+        <article><time>08:09 น.</time><div><h3>พิธีแห่ขันหมาก</h3><p>เริ่มต้นช่วงเวลาแห่งความสุข</p></div></article>
+        <article><time>09:09 น.</time><div><h3>พิธีมงคลสมรส</h3><p>พิธีผูกข้อมือและรับไหว้</p></div></article>
+        <article><time>11:00 น.</time><div><h3>ร่วมรับประทานอาหาร</h3><p>ฉลองความสุขไปด้วยกัน</p></div></article>
+      </div>
+    </section>
+
+    <section class="venue-section">
+      <div class="venue-image"></div>
+      <div class="venue-info">
+        <p class="eyebrow">LOCATION</p>
+        <p class="script section-script">Where to celebrate</p>
+        <h2 data-config="venue">สถานที่จัดงานแต่งงาน</h2>
+        <p data-config="address">กรุณาใส่ที่อยู่สถานที่จัดงาน</p>
+        <a class="outline-button" id="mapLink" href="https://maps.google.com" target="_blank" rel="noopener">เปิดแผนที่ Google Maps ↗</a>
+      </div>
+    </section>
+
+    <section class="gallery section">
+      <p class="eyebrow">A LITTLE LOOK AT US</p>
+      <p class="script section-script">Our Memories</p>
+      <h2>ภาพแห่งความทรงจำ</h2>
+      <div class="gallery-grid">
+        <img src="assets/images/gallery-1.jpg" alt="ภาพคู่บ่าวสาว 1">
+        <img src="assets/images/gallery-2.jpg" alt="ภาพคู่บ่าวสาว 2">
+        <img src="assets/images/gallery-3.jpg" alt="ภาพคู่บ่าวสาว 3">
+      </div>
+    </section>
+
+    <section class="closing section">
+      <p class="script section-script">Can't wait to see you</p>
+      <h2><span data-config="bride">มุก</span> <i>&</i> <span data-config="groom">ต๋อง</span></h2>
+      <p>ขอบคุณที่ร่วมเป็นส่วนหนึ่งในวันสำคัญของเรา</p>
+      <p class="hashtag" data-config="hashtag">#MookTongWedding</p>
+      <div class="flourish">✦ ❦ ✦</div>
+    </section>
+  </main>
+  <footer>MADE WITH LOVE · <span data-config="bride">มุก</span> & <span data-config="groom">ต๋อง</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
